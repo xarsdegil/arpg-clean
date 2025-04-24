@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c172f01a94a71140b589e3a18b837ca, type: 3}
+  m_Name: IceShard
+  m_EditorClassIdentifier: 
+  skillName: Ice Shard
+  cooldown: 1
+  damage: 10
+  range: 0
+  icon: {fileID: 21300000, guid: 6c9b486586952bf49b6af8581b0fa37d, type: 3}
+  iceShardPrefab: {fileID: 1728184095918548, guid: a977b50d367fe4d4d8f6c288bad7df24, type: 3}

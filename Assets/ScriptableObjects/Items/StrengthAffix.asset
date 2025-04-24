@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c17aa433237ea439ce333e768a6e11, type: 3}
+  m_Name: StrengthAffix
+  m_EditorClassIdentifier: 
+  affixName: of the Bear
+  isPrefix: 0
+  validTypes: 0300000002000000
+  tiers:
+  - stat: {fileID: 11400000, guid: 10add80a97a97644094833083eda2cec, type: 2}
+    minValue: 1
+    maxValue: 3
+    requiredItemLevel: 0
+    weight: 25
+  - stat: {fileID: 11400000, guid: 10add80a97a97644094833083eda2cec, type: 2}
+    minValue: 4
+    maxValue: 9
+    requiredItemLevel: 10
+    weight: 50
+  - stat: {fileID: 11400000, guid: 10add80a97a97644094833083eda2cec, type: 2}
+    minValue: 9
+    maxValue: 15
+    requiredItemLevel: 15
+    weight: 25
